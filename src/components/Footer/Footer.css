@@ -1,0 +1,243 @@
+.FooterSection {
+  background-color: var(--bg-dark);
+  color: var(--text-gray);
+  position: relative;
+  border-top: 1px solid var(--border-color);
+  padding-top: 60px;
+  font-family: var(--font-body);
+}
+
+.FooterTopGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+}
+
+.FooterLayoutContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.FooterColumnsGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+
+.FooterColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterBrandLogo {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--text-white);
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.FooterBrandTag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.FooterBrandDesc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin-bottom: 24px;
+}
+
+.FooterPillTags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.FooterPill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  color: var(--text-gray);
+}
+
+.FooterColTitle {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.FooterLinkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.FooterLinkList a {
+  color: var(--text-gray);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+  font-size: 0.95rem;
+}
+
+.FooterLinkList a:hover {
+  color: var(--primary);
+  transform: translateX(4px);
+}
+
+.FooterContactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.FooterContactList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.FooterContactList svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--primary);
+  margin-top: 2px;
+}
+
+.FooterContactList a {
+  color: var(--text-gray);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+.FooterContactList a:hover {
+  color: var(--text-white);
+}
+
+.FooterStatusWidgets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.StatusWidget {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.Dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.Dot.Online {
+  background-color: #25D366;
+  box-shadow: 0 0 10px rgba(37, 211, 102, 0.4);
+}
+
+.Dot.Active {
+  background-color: var(--accent-orange);
+  box-shadow: 0 0 10px rgba(255, 94, 0, 0.4);
+}
+
+.WidgetText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.85rem;
+}
+
+.WidgetText strong {
+  color: var(--text-white);
+  font-size: 0.95rem;
+}
+
+.WidgetText .Closed {
+  color: var(--accent-orange);
+  font-weight: 600;
+}
+
+.FooterBottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.FooterSlogan {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.FooterLegalLinks a {
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+.FooterLegalLinks a:hover {
+  color: var(--text-white);
+}
+
+/* RTL Support */
+[dir="rtl"] .FooterLinkList a:hover {
+  transform: translateX(-4px);
+}
+
+@media (max-width: 992px) {
+  .FooterColumnsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .FooterColumnsGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .FooterBottomRow {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}

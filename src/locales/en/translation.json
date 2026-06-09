@@ -1,0 +1,238 @@
+{
+  "hero": {
+    "badge": "Construction • Mining • Industrial",
+    "headline_1": "Powering",
+    "headline_2": "The Toughest",
+    "headline_3": "Projects",
+    "body": "KEMET heavy machinery is engineered for operators who refuse to compromise — delivering raw power, precision control, and unmatched reliability across the GCC and beyond.",
+    "btn_browse": "Browse Equipment",
+    "btn_catalog": "View Catalog",
+    "kemet_watermark": "KEMET",
+    "metrics": {
+      "original": {
+        "title": "Original Equipment",
+        "desc": "Genuine and high-quality machines you can rely on."
+      },
+      "support": {
+        "title": "Fast Support",
+        "desc": "Dedicated technical team ready to assist you anytime."
+      },
+      "shipping": {
+        "title": "Global Shipping",
+        "desc": "Reliable delivery to any part of the world."
+      },
+      "parts": {
+        "title": "Spare Parts Available",
+        "desc": "Wide range of genuine parts for maximum uptime."
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "catalog": "Catalog",
+    "contact": "Contact",
+    "request_quote": "Request a Quote",
+    "request_quote_short": "Quote"
+  },
+  "footer": {
+    "brand_desc": "Alpha Sino General Trading Co. L.L.C. — your trusted partner for premium heavy machinery across construction, mining, and industrial sectors worldwide.",
+    "motto_1": "Professional",
+    "motto_2": "Powerful",
+    "motto_3": "Reliable",
+    "nav_title": "Navigation",
+    "contact_title": "Contact Us",
+    "status_title": "Operational Status",
+    "copyright": "Copyright © {{year}} KEMET Heavy Machinery.",
+    "slogan": "Built Without Compromise."
+  },
+  "advantages": {
+    "badge": "Why Kemet",
+    "heading": "Built Without Compromise",
+    "power_title": "Industrial Power",
+    "power_desc": "Every KEMET machine is engineered with high-torque powertrains and heavy-duty cooling packages designed to deliver sustained peak horsepower under continuous maximum load, ensuring zero power throttling in extreme desert and quarry environments.",
+    "precision_title": "Absolute Precision",
+    "precision_desc": "Equipped with state-of-the-art load-sensing hydraulic systems and intelligent electronic flow-matching control to deliver sub-millimeter operational accuracy, critical for high-stakes infrastructure and complex mining grading.",
+    "reliability_title": "Uncompromising Reliability",
+    "reliability_desc": "Built on rugged, high-tensile steel frames and backed by an ISO-certified manufacturing process and a comprehensive GCC support network, ensuring maximum mechanical availability and minimized Total Cost of Ownership (TCO)."
+  },
+  "cta": {
+    "badge": "Get In Touch",
+    "heading": "Ready To Power Your Next Project?",
+    "summary": "Our heavy machinery specialists are standing by in Dubai to help you configure the perfect fleet for your operational requirements. Let's build without compromise.",
+    "button": "Request A Consultation"
+  },
+  "showcase": {
+    "badge": "Browse by Type",
+    "title_line1": "Machinery",
+    "title_line2": "Categories",
+    "all_btn": "All Categories",
+    "view_range": "View Range",
+    "available": "Available Now",
+    "excavators_title": "Excavators",
+    "excavators_desc": "High-performance hydraulic excavators engineered for maximum digging depth, power, and efficiency in tough quarry and earthmoving conditions.",
+    "loaders_title": "Loaders",
+    "loaders_desc": "Heavy-duty wheel loaders built for high-capacity material handling, rapid cycle times, and ultimate operator comfort.",
+    "tractors_title": "Tractors",
+    "tractors_desc": "Industrial crawler bulldozers designed for heavy earth pushing, site clearing, and leveling on challenging terrains.",
+    "trucks_title": "Trucks",
+    "trucks_desc": "High-payload mining dump trucks built to transport materials across rugged terrain with ultimate reliability."
+  },
+  "catalog": {
+    "badge": "Kemet Lineup",
+    "headline_1": "Full Equipment",
+    "headline_2": "Catalog 2026",
+    "summary": "Every machine in the KEMET lineup is engineered for uncompromising performance, structural durability, and maximum mechanical uptime in extreme GCC climates.",
+    "download_pdf": "Download PDF Catalog",
+    "request_quote": "Request A Quote",
+    "total_models": "Total Models",
+    "categories": "Categories",
+    "new_units": "New Units",
+    "active_stock": "Active Stock",
+    "search_placeholder": "Search by product name, model number, or category...",
+    "models_found": "models found",
+    "model_found": "model found",
+    "clear_all": "Clear All",
+    "filters": "Filters",
+    "category": "Category",
+    "manufacturing_year": "Manufacturing Year",
+    "all_years": "All Years",
+    "availability": "Availability",
+    "in_stock": "In Stock",
+    "available": "Available",
+    "all_equipment": "All Equipment",
+    "models_available": "Models Available",
+    "no_equipment": "No equipment found",
+    "try_adjusting": "Try adjusting your search or filters",
+    "reset_filters": "Reset Filters",
+    "read_more": "Read More",
+    "details": "Details",
+    "pdf": "PDF",
+    "promo_badge": "Full Brochure",
+    "promo_title": "Download The Complete Kemet Catalog 2026",
+    "promo_desc": "Access full dimensional drawings, complete hydraulic schematics, engine performance curves, and custom attachment configurations in one high-resolution PDF.",
+    "download_12mb": "Download PDF (12 MB)",
+    "contact_sales": "Contact Sales"
+  },
+  "about": {
+    "badge": "Our Story",
+    "heading": "About Kemet & Alpha Sino",
+    "subheading": "Building trusted industrial partnerships across the Middle East, Africa, and beyond since 2003.",
+    "history_badge": "Company History",
+    "history_heading_1": "A Legacy Built On",
+    "history_heading_2": "Industrial Trust",
+    "history_p1": "Founded in Dubai's Port Said district, Alpha Sino General Trading Co. LLC began as a specialized importer of construction and mining equipment for the rapidly developing UAE market. Two decades of relationship-driven commerce transformed us into one of the region's most recognized heavy machinery distributors.",
+    "history_p2": "The KEMET brand was born from a simple conviction: the GCC construction and mining sectors deserved purpose-engineered machinery that could withstand extreme heat, continuous heavy-cycle operations, and the logistical demands of remote project sites — without compromising operator productivity or machine reliability.",
+    "history_p3": "Today, KEMET machines are deployed across construction megaprojects, open-pit mining operations, and industrial infrastructure developments spanning the UAE, Saudi Arabia, Egypt, and sub-Saharan Africa.",
+    "strengths_title": "Our Operational Strengths",
+    "strength_1_title": "Years of Excellence",
+    "strength_1_desc": "Relationship-driven heavy machinery distribution since 2003.",
+    "strength_2_title": "OEM Parts Availability",
+    "strength_2_desc": "Guaranteed genuine components for maximized machine uptime.",
+    "strength_3_title": "Engineering Dispatch",
+    "strength_3_desc": "Dedicated technical support team active across the entire GCC."
+  },
+  "details": {
+    "back_to_catalog": "Back to Catalog",
+    "series": "Series",
+    "download_spec": "Download Spec Sheet",
+    "share_product": "Share Product",
+    "link_copied": "Link Copied! 📋",
+    "tech_specs": "Technical Specifications",
+    "request_quote": "Request a Quote",
+    "get_pricing": "Get Pricing & Availability",
+    "advisor_text": "Our heavy equipment advisors respond within 2 hours with tailored quotes, shipping terms, and delivery timelines.",
+    "trust_1": "2-Hour Response Guarantee",
+    "trust_2": "Global Shipping Available",
+    "trust_3": "Custom Financing Options",
+    "trust_4": "Full Warranty Included",
+    "inquiry_sent": "Inquiry Sent!",
+    "inquiry_sent_desc_1": "Your request for the",
+    "inquiry_sent_desc_2": "has been received. An advisor will contact you shortly.",
+    "send_another": "Send Another",
+    "form_name": "Full Name",
+    "form_name_placeholder": "Your name",
+    "form_email": "Corporate Email",
+    "form_phone": "Phone / WhatsApp",
+    "form_msg": "Message",
+    "form_msg_placeholder": "I am interested in the KEMET %model% and would like pricing, shipping terms, and delivery timeline options.",
+    "submit_inquiry": "Submit Inquiry"
+  },
+  "fleet": {
+    "1": {
+      "name": "KL-950 Wheel Loader",
+      "description": "Heavy-duty wheel loader engineered for high-capacity material handling and extreme industrial loading cycles."
+    },
+    "2": {
+      "name": "KE-210 Hydraulic Excavator",
+      "description": "Versatile hydraulic excavator designed for maximum digging efficiency, precision control, and low fuel consumption."
+    },
+    "3": {
+      "name": "KG-160 Motor Grader",
+      "description": "Precision motor grader with advanced blade control systems, built for high-stakes road construction and site leveling."
+    },
+    "4": {
+      "name": "KM-450 Mining Dump Truck",
+      "description": "High-payload heavy dump truck engineered to transport materials across rugged terrain with ultimate structural durability."
+    },
+    "5": {
+      "name": "KT-160 Crawler Bulldozer",
+      "description": "Heavy industrial crawler bulldozer engineered for aggressive site clearing, earth-pushing, and land reclamation."
+    },
+    "6": {
+      "name": "KB-880 Backhoe Loader",
+      "description": "Multi-purpose backhoe utility loader combining front bucket loading and rear excavating capability in a compact footprint."
+    },
+    "7": {
+      "name": "KE-380 Mining Excavator",
+      "description": "Heavy-duty crawler excavator engineered for sustained excavation cycles in open-pit mines and heavy quarry sites."
+    },
+    "8": {
+      "name": "KG-180 Heavy Grader",
+      "description": "High-horsepower motor grader designed for deep cut leveling and high-volume gravel grading on heavy infrastructure projects."
+    },
+    "9": {
+      "name": "AR Series Agricultural Tractor",
+      "description": "Versatile and efficient 20-30 HP agricultural tractor designed for modern farming needs. Built to work, built to last."
+    }
+  },
+  "specs": {
+    "labels": {
+      "payload_weight": "Payload Weight",
+      "engine_power": "Engine Power",
+      "bucket_capacity": "Bucket Capacity",
+      "operating_weight": "Operating Weight",
+      "engine_model": "Engine Model",
+      "max_travel_speed": "Max Travel Speed",
+      "dump_height": "Dump Height",
+      "turning_radius": "Turning Radius",
+      "hydraulic_flow": "Hydraulic Flow",
+      "fuel_tank_capacity": "Fuel Tank Capacity",
+      "ground_clearance": "Ground Clearance",
+      "digging_depth": "Digging Depth",
+      "moldboard_width": "Moldboard Width",
+      "blade_pull": "Blade Pull",
+      "payload_capacity": "Payload Capacity",
+      "body_capacity": "Body Capacity",
+      "blade_capacity": "Blade Capacity",
+      "track_width": "Track Width",
+      "backhoe_capacity": "Backhoe Capacity",
+      "horsepower": "Horsepower",
+      "transmission": "Transmission",
+      "engine": "Engine",
+      "maintenance": "Maintenance",
+      "fuel_efficient": "Fuel Efficient",
+      "built_for": "Built for"
+    },
+    "values": {
+      "advanced_system": "Advanced System",
+      "high_performance": "High Performance",
+      "easy_maintenance": "Easy Maintenance",
+      "yes": "Yes",
+      "agriculture": "Agriculture",
+      "minimum_spot": "Minimum Spot",
+      "n/a_(leveling)": "N/A (Leveling)"
+    }
+  }
+}

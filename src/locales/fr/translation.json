@@ -1,0 +1,238 @@
+{
+  "hero": {
+    "badge": "Construction • Exploitation Minière • Industriel",
+    "headline_1": "Alimenter",
+    "headline_2": "Les Projets",
+    "headline_3": "Les Plus Durs",
+    "body": "La machinerie lourde KEMET est conçue pour les opérateurs qui refusent tout compromis — offrant une puissance brute, un contrôle de précision et une fiabilité inégalée dans tout le CCG et au-delà.",
+    "btn_browse": "Parcourir l'équipement",
+    "btn_catalog": "Voir le catalogue",
+    "kemet_watermark": "KEMET",
+    "metrics": {
+      "original": {
+        "title": "Équipement d'origine",
+        "desc": "Des machines authentiques et de haute qualité sur lesquelles vous pouvez compter."
+      },
+      "support": {
+        "title": "Assistance rapide",
+        "desc": "Équipe technique dédiée prête à vous aider à tout moment."
+      },
+      "shipping": {
+        "title": "Expédition mondiale",
+        "desc": "Livraison fiable partout dans le monde."
+      },
+      "parts": {
+        "title": "Pièces de rechange disponibles",
+        "desc": "Large gamme de pièces d'origine pour une disponibilité maximale."
+      }
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "products": "Produits",
+    "catalog": "Catalogue",
+    "contact": "Contact",
+    "request_quote": "Demander un devis",
+    "request_quote_short": "Devis"
+  },
+  "footer": {
+    "brand_desc": "Alpha Sino General Trading Co. L.L.C. — votre partenaire de confiance pour la machinerie lourde haut de gamme dans les secteurs de la construction, des mines et de l'industrie à travers le monde.",
+    "motto_1": "Professionnel",
+    "motto_2": "Puissant",
+    "motto_3": "Fiable",
+    "nav_title": "Navigation",
+    "contact_title": "Contactez-nous",
+    "status_title": "Statut Opérationnel",
+    "copyright": "Copyright © {{year}} KEMET Machinerie Lourde.",
+    "slogan": "Construit Sans Compromis."
+  },
+  "advantages": {
+    "badge": "Pourquoi Kemet",
+    "heading": "Construit Sans Compromis",
+    "power_title": "Puissance Industrielle",
+    "power_desc": "Chaque machine KEMET est équipée de groupes motopropulseurs à couple élevé et de systèmes de refroidissement robustes...",
+    "precision_title": "Précision Absolue",
+    "precision_desc": "Équipé de systèmes hydrauliques à détection de charge de pointe...",
+    "reliability_title": "Fiabilité Inébranlable",
+    "reliability_desc": "Construit sur des cadres en acier à haute résistance et soutenu par un processus de fabrication certifié ISO..."
+  },
+  "cta": {
+    "badge": "Contactez-Nous",
+    "heading": "Prêt À Alimenter Votre Prochain Projet ?",
+    "summary": "Nos spécialistes de la machinerie lourde sont prêts à Dubaï pour vous aider...",
+    "button": "Demander Une Consultation"
+  },
+  "showcase": {
+    "badge": "Parcourir par Type",
+    "title_line1": "Catégories De",
+    "title_line2": "Machinerie",
+    "all_btn": "Toutes Les Catégories",
+    "view_range": "Voir La Gamme",
+    "available": "Disponible Maintenant",
+    "excavators_title": "Excavatrices",
+    "excavators_desc": "Pelles hydrauliques hautes performances conçues pour une profondeur de creusement maximale...",
+    "loaders_title": "Chargeuses",
+    "loaders_desc": "Chargeuses sur pneus robustes conçues pour la manutention de matériaux de grande capacité...",
+    "tractors_title": "Tracteurs",
+    "tractors_desc": "Bouteurs sur chenilles industriels conçus pour le poussage intensif de la terre...",
+    "trucks_title": "Camions",
+    "trucks_desc": "Camions à benne basculante minière à charge utile élevée construits pour transporter des matériaux..."
+  },
+  "catalog": {
+    "badge": "Gamme Kemet",
+    "headline_1": "Catalogue Complet",
+    "headline_2": "D'Équipement 2026",
+    "summary": "Chaque machine de la gamme KEMET est conçue pour des performances sans compromis...",
+    "download_pdf": "Télécharger Le Catalogue PDF",
+    "request_quote": "Demander Un Devis",
+    "total_models": "Modèles Totaux",
+    "categories": "Catégories",
+    "new_units": "Nouvelles Unités",
+    "active_stock": "Stock Actif",
+    "search_placeholder": "Rechercher par nom de produit, modèle ou catégorie...",
+    "models_found": "modèles trouvés",
+    "model_found": "modèle trouvé",
+    "clear_all": "Tout Effacer",
+    "filters": "Filtres",
+    "category": "Catégorie",
+    "manufacturing_year": "Année De Fabrication",
+    "all_years": "Toutes Les Années",
+    "availability": "Disponibilité",
+    "in_stock": "En Stock",
+    "available": "Disponible",
+    "all_equipment": "Tout L'Équipement",
+    "models_available": "Modèles Disponibles",
+    "no_equipment": "Aucun équipement trouvé",
+    "try_adjusting": "Essayez d'ajuster votre recherche ou vos filtres",
+    "reset_filters": "Réinitialiser Les Filtres",
+    "read_more": "Lire La Suite",
+    "details": "Détails",
+    "pdf": "PDF",
+    "promo_badge": "Brochure Complète",
+    "promo_title": "Téléchargez Le Catalogue Kemet Complet 2026",
+    "promo_desc": "Accédez à des dessins dimensionnels complets, des schémas hydrauliques complets...",
+    "download_12mb": "Télécharger PDF (12 Mo)",
+    "contact_sales": "Contacter Les Ventes"
+  },
+  "about": {
+    "badge": "Notre Histoire",
+    "heading": "À propos de Kemet & Alpha Sino",
+    "subheading": "Établir des partenariats industriels de confiance à travers le Moyen-Orient, l'Afrique et au-delà depuis 2003.",
+    "history_badge": "Histoire de l'entreprise",
+    "history_heading_1": "Un Héritage Bâti Sur",
+    "history_heading_2": "La Confiance Industrielle",
+    "history_p1": "Fondée dans le quartier de Port Said à Dubaï, Alpha Sino General Trading Co. LLC a commencé comme importateur spécialisé d'équipements de construction et d'exploitation minière pour le marché des EAU en développement rapide.",
+    "history_p2": "La marque KEMET est née d'une conviction simple : les secteurs de la construction et de l'exploitation minière du CCG méritaient des machines spécialement conçues pour résister à des chaleurs extrêmes...",
+    "history_p3": "Aujourd'hui, les machines KEMET sont déployées à travers des mégaprojets de construction, des opérations minières à ciel ouvert et des développements d'infrastructures industrielles.",
+    "strengths_title": "Nos Forces Opérationnelles",
+    "strength_1_title": "Années d'Excellence",
+    "strength_1_desc": "Distribution de machinerie lourde axée sur les relations depuis 2003.",
+    "strength_2_title": "Disponibilité des Pièces",
+    "strength_2_desc": "Composants d'origine garantis pour un temps de fonctionnement maximal.",
+    "strength_3_title": "Envoi d'Ingénieurs",
+    "strength_3_desc": "Équipe de support technique dédiée active dans tout le CCG."
+  },
+  "details": {
+    "back_to_catalog": "Retour au Catalogue",
+    "series": "Série",
+    "download_spec": "Télécharger la fiche technique",
+    "share_product": "Partager le produit",
+    "link_copied": "Lien copié ! 📋",
+    "tech_specs": "Spécifications Techniques",
+    "request_quote": "Demander un devis",
+    "get_pricing": "Obtenir les prix et la disponibilité",
+    "advisor_text": "Nos conseillers en équipement lourd répondent dans les 2 heures avec des devis personnalisés, des conditions d'expédition et des délais de livraison.",
+    "trust_1": "Garantie de réponse en 2 heures",
+    "trust_2": "Expédition mondiale disponible",
+    "trust_3": "Options de financement personnalisées",
+    "trust_4": "Garantie complète incluse",
+    "inquiry_sent": "Demande envoyée !",
+    "inquiry_sent_desc_1": "Votre demande pour le",
+    "inquiry_sent_desc_2": "a été reçue. Un conseiller vous contactera sous peu.",
+    "send_another": "Envoyer un autre",
+    "form_name": "Nom complet",
+    "form_name_placeholder": "Votre nom",
+    "form_email": "Email d'entreprise",
+    "form_phone": "Téléphone / WhatsApp",
+    "form_msg": "Message",
+    "form_msg_placeholder": "Je suis intéressé par le modèle %model% de KEMET...",
+    "submit_inquiry": "Soumettre la demande"
+  },
+  "fleet": {
+    "1": {
+      "name": "Chargeuse sur Pneus KL-950",
+      "description": "Chargeuse sur pneus robuste conçue pour la manutention de matériaux à haute capacité."
+    },
+    "2": {
+      "name": "Pelle Hydraulique KE-210",
+      "description": "Pelle hydraulique polyvalente conçue pour une efficacité de creusement maximale."
+    },
+    "3": {
+      "name": "Niveleuse KG-160",
+      "description": "Niveleuse de précision avec systèmes de contrôle de lame avancés."
+    },
+    "4": {
+      "name": "Camion Benne Minier KM-450",
+      "description": "Camion benne lourd à haute charge utile conçu pour transporter des matériaux sur des terrains accidentés."
+    },
+    "5": {
+      "name": "Bulldozer sur Chenilles KT-160",
+      "description": "Bulldozer industriel lourd conçu pour le déblaiement de sites agressifs."
+    },
+    "6": {
+      "name": "Tractopelle KB-880",
+      "description": "Chargeuse-pelleteuse utilitaire polyvalente combinant un chargement par godet frontal et une capacité d'excavation arrière."
+    },
+    "7": {
+      "name": "Pelle Minière KE-380",
+      "description": "Pelle sur chenilles robuste conçue pour des cycles d'excavation soutenus."
+    },
+    "8": {
+      "name": "Niveleuse Lourde KG-180",
+      "description": "Niveleuse à haute puissance conçue pour le nivellement de coupes profondes."
+    },
+    "9": {
+      "name": "Tracteur Agricole Série AR",
+      "description": "Tracteur agricole de 20-30 CV polyvalent et efficace."
+    }
+  },
+  "specs": {
+    "labels": {
+      "payload_weight": "Poids de la charge utile",
+      "engine_power": "Puissance du moteur",
+      "bucket_capacity": "Capacité du godet",
+      "operating_weight": "Poids en ordre de marche",
+      "engine_model": "Modèle de moteur",
+      "max_travel_speed": "Vitesse de déplacement max",
+      "dump_height": "Hauteur de vidage",
+      "turning_radius": "Rayon de braquage",
+      "hydraulic_flow": "Débit hydraulique",
+      "fuel_tank_capacity": "Capacité du réservoir de carburant",
+      "ground_clearance": "Garde au sol",
+      "digging_depth": "Profondeur de creusement",
+      "moldboard_width": "Largeur de la lame",
+      "blade_pull": "Force de traction de la lame",
+      "payload_capacity": "Capacité de charge utile",
+      "body_capacity": "Capacité de la benne",
+      "blade_capacity": "Capacité de la lame",
+      "track_width": "Largeur de voie",
+      "backhoe_capacity": "Capacité de la pelle rétro",
+      "horsepower": "Puissance (CV)",
+      "transmission": "Transmission",
+      "engine": "Moteur",
+      "maintenance": "Entretien",
+      "fuel_efficient": "Économe en carburant",
+      "built_for": "Conçu pour"
+    },
+    "values": {
+      "advanced_system": "Système avancé",
+      "high_performance": "Haute performance",
+      "easy_maintenance": "Entretien facile",
+      "yes": "Oui",
+      "agriculture": "Agriculture",
+      "minimum_spot": "Point minimum",
+      "n/a_(leveling)": "N/D (Nivellement)"
+    }
+  }
+}

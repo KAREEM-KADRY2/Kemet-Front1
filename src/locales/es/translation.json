@@ -1,0 +1,238 @@
+{
+  "hero": {
+    "badge": "Construcción • Minería • Industrial",
+    "headline_1": "Impulsando",
+    "headline_2": "Los Proyectos",
+    "headline_3": "Más Difíciles",
+    "body": "La maquinaria pesada de KEMET está diseñada para operadores que se niegan a ceder: ofrece potencia bruta, control de precisión y una confiabilidad inigualable en todo el CCG y más allá.",
+    "btn_browse": "Explorar equipos",
+    "btn_catalog": "Ver catálogo",
+    "kemet_watermark": "KEMET",
+    "metrics": {
+      "original": {
+        "title": "Equipo original",
+        "desc": "Máquinas genuinas y de alta calidad en las que puede confiar."
+      },
+      "support": {
+        "title": "Soporte rápido",
+        "desc": "Equipo técnico dedicado listo para ayudarlo en cualquier momento."
+      },
+      "shipping": {
+        "title": "Envío global",
+        "desc": "Entrega confiable a cualquier parte del mundo."
+      },
+      "parts": {
+        "title": "Repuestos disponibles",
+        "desc": "Amplia gama de repuestos originales para el máximo tiempo de actividad."
+      }
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "products": "Productos",
+    "catalog": "Catálogo",
+    "contact": "Contacto",
+    "request_quote": "Solicitar cotización",
+    "request_quote_short": "Cotización"
+  },
+  "footer": {
+    "brand_desc": "Alpha Sino General Trading Co. L.L.C. — su socio de confianza para maquinaria pesada premium en los sectores de construcción, minería e industria en todo el mundo.",
+    "motto_1": "Profesional",
+    "motto_2": "Potente",
+    "motto_3": "Confiable",
+    "nav_title": "Navegación",
+    "contact_title": "Contáctenos",
+    "status_title": "Estado Operativo",
+    "copyright": "Derechos de autor © {{year}} KEMET Maquinaria Pesada.",
+    "slogan": "Construido Sin Compromisos."
+  },
+  "advantages": {
+    "badge": "Por qué Kemet",
+    "heading": "Construido Sin Compromisos",
+    "power_title": "Potencia Industrial",
+    "power_desc": "Cada máquina KEMET está diseñada con trenes de potencia de alto torque...",
+    "precision_title": "Precisión Absoluta",
+    "precision_desc": "Equipado con sistemas hidráulicos de detección de carga de última generación...",
+    "reliability_title": "Confiabilidad Intransigente",
+    "reliability_desc": "Construido sobre marcos de acero de alta resistencia y respaldado por un proceso de fabricación certificado..."
+  },
+  "cta": {
+    "badge": "Ponerse En Contacto",
+    "heading": "¿Listo Para Impulsar Su Próximo Proyecto?",
+    "summary": "Nuestros especialistas en maquinaria pesada están listos en Dubai para ayudarlo...",
+    "button": "Solicitar Una Consulta"
+  },
+  "showcase": {
+    "badge": "Explorar por Tipo",
+    "title_line1": "Categorías De",
+    "title_line2": "Maquinaria",
+    "all_btn": "Todas Las Categorías",
+    "view_range": "Ver Gama",
+    "available": "Disponible Ahora",
+    "excavators_title": "Excavadoras",
+    "excavators_desc": "Excavadoras hidráulicas de alto rendimiento diseñadas para máxima profundidad de excavación...",
+    "loaders_title": "Cargadores",
+    "loaders_desc": "Cargadores de ruedas de servicio pesado construidos para el manejo de materiales de gran capacidad...",
+    "tractors_title": "Tractores",
+    "tractors_desc": "Topadoras de orugas industriales diseñadas para el empuje pesado de tierra...",
+    "trucks_title": "Camiones",
+    "trucks_desc": "Camiones volquete para minería de alta carga útil construidos para transportar materiales..."
+  },
+  "catalog": {
+    "badge": "Línea Kemet",
+    "headline_1": "Catálogo Completo",
+    "headline_2": "De Equipos 2026",
+    "summary": "Cada máquina en la línea KEMET está diseñada para un rendimiento sin concesiones...",
+    "download_pdf": "Descargar Catálogo PDF",
+    "request_quote": "Solicitar Una Cotización",
+    "total_models": "Modelos Totales",
+    "categories": "Categorías",
+    "new_units": "Nuevas Unidades",
+    "active_stock": "Stock Activo",
+    "search_placeholder": "Buscar por nombre de producto, modelo o categoría...",
+    "models_found": "modelos encontrados",
+    "model_found": "modelo encontrado",
+    "clear_all": "Limpiar Todo",
+    "filters": "Filtros",
+    "category": "Categoría",
+    "manufacturing_year": "Año De Fabricación",
+    "all_years": "Todos Los Años",
+    "availability": "Disponibilidad",
+    "in_stock": "En Stock",
+    "available": "Disponible",
+    "all_equipment": "Todos Los Equipos",
+    "models_available": "Modelos Disponibles",
+    "no_equipment": "No se encontró ningún equipo",
+    "try_adjusting": "Intente ajustar su búsqueda o filtros",
+    "reset_filters": "Restablecer Filtros",
+    "read_more": "Leer Más",
+    "details": "Detalles",
+    "pdf": "PDF",
+    "promo_badge": "Folleto Completo",
+    "promo_title": "Descargue El Catálogo Completo De Kemet 2026",
+    "promo_desc": "Acceda a dibujos dimensionales completos, esquemas hidráulicos completos...",
+    "download_12mb": "Descargar PDF (12 MB)",
+    "contact_sales": "Contactar a Ventas"
+  },
+  "about": {
+    "badge": "Nuestra Historia",
+    "heading": "Acerca de Kemet y Alpha Sino",
+    "subheading": "Construyendo asociaciones industriales de confianza en todo el Medio Oriente, África y más allá desde 2003.",
+    "history_badge": "Historia de la Empresa",
+    "history_heading_1": "Un Legado Basado En",
+    "history_heading_2": "Confianza Industrial",
+    "history_p1": "Fundada en el distrito Port Said de Dubái, Alpha Sino General Trading Co. LLC comenzó como un importador especializado de equipos de construcción y minería...",
+    "history_p2": "La marca KEMET nació de una simple convicción: los sectores de construcción y minería del CCG merecían maquinaria diseñada específicamente para soportar calor extremo...",
+    "history_p3": "Hoy, las máquinas KEMET están desplegadas en megaproyectos de construcción y operaciones mineras a cielo abierto.",
+    "strengths_title": "Nuestras Fortalezas Operativas",
+    "strength_1_title": "Años de Excelencia",
+    "strength_1_desc": "Distribución de maquinaria pesada basada en relaciones desde 2003.",
+    "strength_2_title": "Disponibilidad de Piezas",
+    "strength_2_desc": "Componentes originales garantizados para maximizar el tiempo de actividad.",
+    "strength_3_title": "Despacho de Ingeniería",
+    "strength_3_desc": "Equipo de soporte técnico dedicado activo en todo el CCG."
+  },
+  "details": {
+    "back_to_catalog": "Volver al Catálogo",
+    "series": "Serie",
+    "download_spec": "Descargar Hoja de Especificaciones",
+    "share_product": "Compartir Producto",
+    "link_copied": "¡Enlace copiado! 📋",
+    "tech_specs": "Especificaciones Técnicas",
+    "request_quote": "Solicitar una Cotización",
+    "get_pricing": "Obtener Precios y Disponibilidad",
+    "advisor_text": "Nuestros asesores responden dentro de las 2 horas con cotizaciones personalizadas.",
+    "trust_1": "Garantía de respuesta en 2 horas",
+    "trust_2": "Envío global disponible",
+    "trust_3": "Opciones de financiamiento",
+    "trust_4": "Garantía completa incluida",
+    "inquiry_sent": "¡Consulta Enviada!",
+    "inquiry_sent_desc_1": "Su solicitud para el",
+    "inquiry_sent_desc_2": "ha sido recibida.",
+    "send_another": "Enviar otra",
+    "form_name": "Nombre Completo",
+    "form_name_placeholder": "Su nombre",
+    "form_email": "Correo Corporativo",
+    "form_phone": "Teléfono / WhatsApp",
+    "form_msg": "Mensaje",
+    "form_msg_placeholder": "Estoy interesado en el modelo %model% de KEMET...",
+    "submit_inquiry": "Enviar Consulta"
+  },
+  "fleet": {
+    "1": {
+      "name": "Cargador Frontal KL-950",
+      "description": "Cargador frontal de servicio pesado para manejo de materiales de alta capacidad."
+    },
+    "2": {
+      "name": "Excavadora Hidráulica KE-210",
+      "description": "Excavadora hidráulica versátil para máxima eficiencia de excavación."
+    },
+    "3": {
+      "name": "Motoniveladora KG-160",
+      "description": "Motoniveladora de precisión con sistemas avanzados de control de cuchillas."
+    },
+    "4": {
+      "name": "Camión Volquete Minero KM-450",
+      "description": "Camión volquete de alta carga útil diseñado para transportar materiales."
+    },
+    "5": {
+      "name": "Bulldozer de Orugas KT-160",
+      "description": "Bulldozer industrial pesado para despeje de sitios agresivos."
+    },
+    "6": {
+      "name": "Retroexcavadora KB-880",
+      "description": "Retroexcavadora utilitaria multipropósito."
+    },
+    "7": {
+      "name": "Excavadora Minera KE-380",
+      "description": "Excavadora de orugas de servicio pesado para ciclos de excavación sostenidos."
+    },
+    "8": {
+      "name": "Motoniveladora Pesada KG-180",
+      "description": "Motoniveladora de alta potencia para nivelación de cortes profundos."
+    },
+    "9": {
+      "name": "Tractor Agrícola Serie AR",
+      "description": "Tractor agrícola versátil y eficiente de 20-30 HP."
+    }
+  },
+  "specs": {
+    "labels": {
+      "payload_weight": "Peso de Carga Útil",
+      "engine_power": "Potencia del Motor",
+      "bucket_capacity": "Capacidad del Cucharón",
+      "operating_weight": "Peso Operativo",
+      "engine_model": "Modelo de Motor",
+      "max_travel_speed": "Velocidad Máx. de Desplazamiento",
+      "dump_height": "Altura de Descarga",
+      "turning_radius": "Radio de Giro",
+      "hydraulic_flow": "Flujo Hidráulico",
+      "fuel_tank_capacity": "Capacidad del Tanque de Combustible",
+      "ground_clearance": "Distancia al Suelo",
+      "digging_depth": "Profundidad de Excavación",
+      "moldboard_width": "Ancho de la Vertedera",
+      "blade_pull": "Fuerza de Tracción de la Hoja",
+      "payload_capacity": "Capacidad de Carga Útil",
+      "body_capacity": "Capacidad de la Caja",
+      "blade_capacity": "Capacidad de la Hoja",
+      "track_width": "Ancho de Oruga",
+      "backhoe_capacity": "Capacidad de la Retroexcavadora",
+      "horsepower": "Caballos de Fuerza",
+      "transmission": "Transmisión",
+      "engine": "Motor",
+      "maintenance": "Mantenimiento",
+      "fuel_efficient": "Eficiente en Combustible",
+      "built_for": "Construido para"
+    },
+    "values": {
+      "advanced_system": "Sistema Avanzado",
+      "high_performance": "Alto Rendimiento",
+      "easy_maintenance": "Fácil Mantenimiento",
+      "yes": "Sí",
+      "agriculture": "Agricultura",
+      "minimum_spot": "Punto Mínimo",
+      "n/a_(leveling)": "N/A (Nivelación)"
+    }
+  }
+}

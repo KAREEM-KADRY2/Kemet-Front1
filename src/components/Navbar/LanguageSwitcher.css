@@ -1,0 +1,100 @@
+.LanguageSwitcher {
+  position: relative;
+  display: inline-block;
+}
+
+.LangToggleButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-white);
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: var(--transition-smooth);
+}
+
+.LangToggleButton svg {
+  width: 16px;
+  height: 16px;
+  color: var(--primary);
+}
+
+.LangToggleButton:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--primary);
+}
+
+[data-theme='light'] .LangToggleButton:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.LangDropdownMenu {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 6px;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  animation: dropIn 0.2s ease forwards;
+}
+
+@media (max-width: 480px) {
+  .LangToggleButton {
+    padding: 6px 8px;
+  }
+}
+
+[dir="rtl"] .LangDropdownMenu {
+  right: auto;
+  left: 0;
+}
+
+@keyframes dropIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.LangOption {
+  background: transparent;
+  border: none;
+  color: var(--text-gray);
+  padding: 8px 12px;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+[dir="rtl"] .LangOption {
+  text-align: right;
+}
+
+.LangOption:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-white);
+}
+
+[data-theme='light'] .LangOption:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.LangOption.active {
+  color: var(--primary);
+  font-weight: 600;
+  background: rgba(212, 175, 55, 0.05);
+}
