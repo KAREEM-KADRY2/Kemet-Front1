@@ -22,8 +22,19 @@ export const ConsultationCTA = ({
 
   return (
     <section className="ConsultationCTASection" id="contact">
+      {/* Desktop: absolute background image */}
       <div className="ConsultationCTABackground" style={{ backgroundImage: `url('/e1585f91-87ab-4149-b8b6-1b7f88c5f1e7.png')` }}></div>
       <div className="ConsultationCTAOverlay"></div>
+
+      {/* Mobile only: image shown above text as a block element */}
+      <div className="ConsultationMobileImageBlock">
+        <img
+          src="/e1585f91-87ab-4149-b8b6-1b7f88c5f1e7.png"
+          alt="Heavy Machinery"
+          className="ConsultationMobileImage"
+        />
+      </div>
+
       <div className="ConsultationLayoutContainer">
         <div className="ConsultationMainPanel">
 

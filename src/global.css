@@ -2063,9 +2063,85 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media (max-width: 576px) {
+/* Mobile: hide absolute background, use stacked image + text */
+/* Mobile image block — hidden on desktop */
+.ConsultationMobileImageBlock {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Switch to vertical flex layout */
   .ConsultationCTASection {
-    padding: 80px 6%;
+    padding: 0;
+    min-height: auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  /* Hide the absolute background image on mobile */
+  .ConsultationCTABackground {
+    display: none;
+  }
+
+  /* Hide the overlay on mobile */
+  .ConsultationCTAOverlay {
+    display: none;
+  }
+
+  /* Show mobile image block on top */
+  .ConsultationMobileImageBlock {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    max-height: 260px;
+    flex-shrink: 0;
+  }
+
+  .ConsultationMobileImage {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
+  }
+
+  /* Text container sits below the image with solid bg */
+  .ConsultationLayoutContainer {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    width: 100%;
+    padding: 36px 6% 44px;
+    gap: 18px;
+    background-color: var(--bg-dark);
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  [dir='rtl'] .ConsultationLayoutContainer {
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  .ConsultationCoreHeading {
+    font-size: clamp(1.8rem, 6vw, 2.8rem);
+  }
+
+  .ConsultationCoreSummary {
+    font-size: 1rem;
+    color: var(--text-gray);
+  }
+
+  .ConsultationCTAButton {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .ConsultationMobileImage {
+    height: 220px;
   }
 }
 
@@ -2219,6 +2295,49 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.22em;
   color: var(--accent-orange);
   text-transform: uppercase;
+}
+
+/* Catalog Sector Badges (like Hero badges) */
+.CatalogSectorBadges {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: -6px 0 0 0;
+}
+
+.CatalogSectorBadge {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 5px 12px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+[data-theme='light'] .CatalogSectorBadge {
+  background: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.2);
+}
+
+.CatalogSectorDot {
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 900;
+  text-shadow: 0 1px 4px rgba(255,255,255,0.8);
+}
+
+[data-theme='light'] .CatalogSectorDot {
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 
 .CatalogBannerMainHeadline {

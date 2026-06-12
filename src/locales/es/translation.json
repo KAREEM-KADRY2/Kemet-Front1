@@ -40,7 +40,7 @@
     "request_quote_short": "Cotización"
   },
   "footer": {
-    "brand_desc": "Alpha Sino General Trading Co. L.L.C. — su socio de confianza para maquinaria pesada premium en los sectores de construcción, minería e industria en todo el mundo.",
+    "brand_desc": "Alfa Sino General Trading Co. L.L.C. — su socio de confianza para maquinaria pesada premium en los sectores de construcción, minería e industria en todo el mundo.",
     "motto_1": "Profesional",
     "motto_2": "Potente",
     "motto_3": "Confiable",
@@ -48,7 +48,7 @@
     "contact_title": "Contáctenos",
     "status_title": "Estado Operativo",
     "copyright": "Derechos de autor © {{year}} KEMET Maquinaria Pesada.",
-    "slogan": "Construido Sin Compromisos."
+    "slogan": "KEMET — Built to Endure"
   },
   "advantages": {
     "badge": "Por qué Kemet",
@@ -84,8 +84,8 @@
   },
   "catalog": {
     "badge": "Línea Kemet",
-    "headline_1": "Catálogo Completo",
-    "headline_2": "De Equipos 2026",
+    "headline_1": "KEMET Machinery",
+    "headline_2": "Catalog 2026",
     "summary": "Cada máquina en la línea KEMET está diseñada para un rendimiento sin concesiones...",
     "download_pdf": "Descargar Catálogo PDF",
     "request_quote": "Solicitar Una Cotización",
@@ -120,12 +120,12 @@
   },
   "about": {
     "badge": "Nuestra Historia",
-    "heading": "Acerca de Kemet y Alpha Sino",
+    "heading": "Acerca de Kemet y Alfa Sino",
     "subheading": "Construyendo asociaciones industriales de confianza en todo el Medio Oriente, África y más allá desde 2003.",
     "history_badge": "Historia de la Empresa",
     "history_heading_1": "Un Legado Basado En",
     "history_heading_2": "Confianza Industrial",
-    "history_p1": "Fundada en el distrito Port Said de Dubái, Alpha Sino General Trading Co. LLC comenzó como un importador especializado de equipos de construcción y minería...",
+    "history_p1": "Fundada en el distrito Port Said de Dubái, Alfa Sino General Trading Co. LLC comenzó como un importador especializado de equipos de construcción y minería...",
     "history_p2": "La marca KEMET nació de una simple convicción: los sectores de construcción y minería del mundo merecían maquinaria diseñada específicamente para soportar calor extremo...",
     "history_p3": "Hoy, las máquinas KEMET están desplegadas en megaproyectos de construcción y operaciones mineras a cielo abierto.",
     "strengths_title": "Nuestras Fortalezas Operativas",

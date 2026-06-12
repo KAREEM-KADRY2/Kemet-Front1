@@ -9,10 +9,14 @@ import ContactPage from './pages/Contact/ContactPage.jsx';
 import FAQPage from './pages/FAQ/FAQPage.jsx';
 import PrivacyPage from './pages/Privacy/PrivacyPage.jsx';
 import TermsPage from './pages/Terms/TermsPage.jsx';
-import { fleetList } from './data/fleetData.js';
 import { generateSpecSheetPDF, generateCatalogPDF } from './utils/pdfGenerator.js';
+import { useTranslation } from 'react-i18next';
+import useApi from './hooks/useApi.js';
+import { getEquipments } from './services/apiServices.js';
+import { mapApiEquipmentsToFleet } from './utils/dataMappers.js';
 
 export const App = () => {
+  const { i18n } = useTranslation();
   const [activeTab, setActiveTab] = useState('HOME');
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('theme') || 'dark';
@@ -20,6 +24,13 @@ export const App = () => {
   
   const [activeCategoryFilter, setCategoryFilter] = useState('ALL');
   const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const { data: apiEquipments } = useApi(
+    () => getEquipments(),
+    null,
+    [i18n.language]
+  );
+  const equipmentList = apiEquipments ? mapApiEquipmentsToFleet(apiEquipments) : [];
   
   // Consultation Modal states
   const [showConsultationModal, setShowConsultationModal] = useState(false);
@@ -43,13 +54,13 @@ export const App = () => {
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
     const vehicleQueryId = searchParams.get('eq');
-    if (vehicleQueryId) {
-      const matchVehicle = fleetList.find(vehicle => vehicle.id.toString() === vehicleQueryId);
+    if (vehicleQueryId && equipmentList.length > 0) {
+      const matchVehicle = equipmentList.find(vehicle => vehicle.id.toString() === vehicleQueryId);
       if (matchVehicle) {
         setSelectedProduct(matchVehicle);
       }
     }
-  }, []);
+  }, [equipmentList]);
 
   useEffect(() => {
     if (selectedProduct) {
@@ -79,7 +90,7 @@ export const App = () => {
       return;
     }
     setBrochureSent(true);
-    const selectedFleetItems = fleetList.filter(item => brochureCategories.includes(item.category));
+    const selectedFleetItems = equipmentList.filter(item => brochureCategories.includes(item.category));
     generateCatalogPDF(selectedFleetItems, {
       name: subscriberName,
       email: subscriberEmail,
@@ -353,7 +364,7 @@ export const App = () => {
                     </p>
                     <button 
                       className="ButtonPrimary" 
-                      onClick={() => generateCatalogPDF(fleetList.filter(item => brochureCategories.includes(item.category)), { name: subscriberName, email: subscriberEmail, phone: subscriberPhone })}
+                      onClick={() => generateCatalogPDF(equipmentList.filter(item => brochureCategories.includes(item.category)), { name: subscriberName, email: subscriberEmail, phone: subscriberPhone })}
                       style={{ padding: '12px 24px', fontSize: '0.88rem' }}
                     >
                       Re-open PDF Document

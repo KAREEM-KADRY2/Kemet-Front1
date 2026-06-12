@@ -203,12 +203,12 @@ const specsRu = {
 const trFR = {
   about: {
     badge: "Notre Histoire",
-    heading: "À propos de Kemet & Alpha Sino",
+    heading: "À propos de Kemet & Alfa Sino",
     subheading: "Établir des partenariats industriels de confiance à travers le Moyen-Orient, l'Afrique et au-delà depuis 2003.",
     history_badge: "Histoire de l'entreprise",
     history_heading_1: "Un Héritage Bâti Sur",
     history_heading_2: "La Confiance Industrielle",
-    history_p1: "Fondée dans le quartier de Port Said à Dubaï, Alpha Sino General Trading Co. LLC a commencé comme importateur spécialisé d'équipements de construction et d'exploitation minière pour le marché des EAU en développement rapide.",
+    history_p1: "Fondée dans le quartier de Port Said à Dubaï, Alfa Sino General Trading Co. LLC a commencé comme importateur spécialisé d'équipements de construction et d'exploitation minière pour le marché des EAU en développement rapide.",
     history_p2: "La marque KEMET est née d'une conviction simple : les secteurs de la construction et de l'exploitation minière du CCG méritaient des machines spécialement conçues pour résister à des chaleurs extrêmes...",
     history_p3: "Aujourd'hui, les machines KEMET sont déployées à travers des mégaprojets de construction, des opérations minières à ciel ouvert et des développements d'infrastructures industrielles.",
     strengths_title: "Nos Forces Opérationnelles",
@@ -261,12 +261,12 @@ const trFR = {
 const trES = {
   about: {
     badge: "Nuestra Historia",
-    heading: "Acerca de Kemet y Alpha Sino",
+    heading: "Acerca de Kemet y Alfa Sino",
     subheading: "Construyendo asociaciones industriales de confianza en todo el Medio Oriente, África y más allá desde 2003.",
     history_badge: "Historia de la Empresa",
     history_heading_1: "Un Legado Basado En",
     history_heading_2: "Confianza Industrial",
-    history_p1: "Fundada en el distrito Port Said de Dubái, Alpha Sino General Trading Co. LLC comenzó como un importador especializado de equipos de construcción y minería...",
+    history_p1: "Fundada en el distrito Port Said de Dubái, Alfa Sino General Trading Co. LLC comenzó como un importador especializado de equipos de construcción y minería...",
     history_p2: "La marca KEMET nació de una simple convicción: los sectores de construcción y minería del CCG merecían maquinaria diseñada específicamente para soportar calor extremo...",
     history_p3: "Hoy, las máquinas KEMET están desplegadas en megaproyectos de construcción y operaciones mineras a cielo abierto.",
     strengths_title: "Nuestras Fortalezas Operativas",
@@ -319,12 +319,12 @@ const trES = {
 const trRU = {
   about: {
     badge: "Наша История",
-    heading: "О компании Kemet & Alpha Sino",
+    heading: "О компании Kemet & Alfa Sino",
     subheading: "Построение надежных промышленных партнерств на Ближнем Востоке, в Африке и за их пределами с 2003 года.",
     history_badge: "История компании",
     history_heading_1: "Наследие, основанное на",
     history_heading_2: "Промышленном доверии",
-    history_p1: "Основанная в Дубае, компания Alpha Sino начала свою деятельность как специализированный импортер строительного оборудования...",
+    history_p1: "Основанная в Дубае, компания Alfa Sino начала свою деятельность как специализированный импортер строительного оборудования...",
     history_p2: "Бренд KEMET родился из простого убеждения: секторы строительства и горнодобывающей промышленности заслуживают надежного оборудования...",
     history_p3: "Сегодня машины KEMET используются в крупных строительных мегапроектах и добыче полезных ископаемых.",
     strengths_title: "Наши сильные стороны",

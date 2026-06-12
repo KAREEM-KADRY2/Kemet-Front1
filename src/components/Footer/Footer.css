@@ -1,10 +1,11 @@
 .FooterSection {
-  background-color: #fafafa;
-  color: #4b5563;
+  background-color: var(--bg-dark, #fafafa);
+  color: var(--text-gray, #4b5563);
   position: relative;
   font-family: var(--font-body);
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid var(--border-color, #e5e7eb);
   padding: 60px 0 20px 0;
+  transition: all 0.3s ease;
 }
 
 .FooterLayoutContainer {
@@ -51,7 +52,7 @@
 .FooterBrandDesc {
   font-size: 0.9rem;
   line-height: 1.6;
-  color: #6b7280;
+  color: var(--text-dim, #6b7280);
   margin-bottom: 24px;
 }
 
@@ -67,9 +68,9 @@
   justify-content: center;
   width: 32px;
   height: 32px;
-  background: #ffffff;
+  background: var(--bg-card, #ffffff);
   border-radius: 50%;
-  color: #111827;
+  color: var(--text-white, #111827);
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
@@ -90,7 +91,7 @@
   font-family: var(--font-heading);
   font-size: 1.05rem;
   font-weight: 800;
-  color: #111827;
+  color: var(--text-white, #111827);
   margin-bottom: 24px;
   display: flex;
   align-items: center;
@@ -117,18 +118,18 @@
   align-items: center;
   gap: 8px;
   font-size: 0.9rem;
-  color: #4b5563;
+  color: var(--text-gray, #4b5563);
 }
 
 .FooterServicesList li svg {
   width: 16px;
   height: 16px;
-  color: #6b7280;
+  color: var(--text-dim, #6b7280);
   flex-shrink: 0;
 }
 
 .FooterLinkList a {
-  color: #4b5563;
+  color: var(--text-gray, #4b5563);
   text-decoration: none;
   transition: color 0.2s ease;
   display: flex;
@@ -160,7 +161,7 @@
   gap: 12px;
   font-size: 0.9rem;
   line-height: 1.5;
-  color: #4b5563;
+  color: var(--text-gray, #4b5563);
 }
 
 .FooterContactList svg {
@@ -168,11 +169,11 @@
   height: 16px;
   flex-shrink: 0;
   margin-top: 2px;
-  color: #6b7280;
+  color: var(--text-dim, #6b7280);
 }
 
 .FooterContactList a {
-  color: #4b5563;
+  color: var(--text-gray, #4b5563);
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -186,9 +187,9 @@
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background-color: #ffffff;
-  border: 1px solid #ff9900;
-  color: #ff9900;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 700;

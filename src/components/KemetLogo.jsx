@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const KemetLogo = ({ theme = 'dark', className = '', showText = true }) => {
+  const { t } = useTranslation();
   const iconColorPrimary = '#41d800'; // Green
   const iconColorSecondary = theme === 'dark' ? '#ffffff' : '#0a0b0d';
 

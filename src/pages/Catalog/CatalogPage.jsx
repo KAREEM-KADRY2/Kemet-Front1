@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { fleetList } from '../../data/fleetData.js';
-import useApi from '../../hooks/useApi.js';
 import { getEquipments, getCategories, getEquipmentStats } from '../../services/apiServices.js';
 import { mapApiEquipmentsToFleet, mapApiCategories } from '../../utils/dataMappers.js';
+import useApi from '../../hooks/useApi.js';
 
 export const CatalogPage = ({ 
   activeCategoryFilter, 
@@ -25,7 +24,7 @@ export const CatalogPage = ({
     null,
     [i18n.language]
   );
-  const equipmentList = apiEquipments ? mapApiEquipmentsToFleet(apiEquipments) : fleetList;
+  const equipmentList = apiEquipments ? mapApiEquipmentsToFleet(apiEquipments) : [];
 
   // Fetch categories from API with fallback
   const { data: apiCategories } = useApi(
@@ -46,10 +45,10 @@ export const CatalogPage = ({
   if (searchQuery.trim()) {
     const searchString = searchQuery.toLowerCase();
     filteredFleet = filteredFleet.filter(vehicle =>
-      t(`fleet.${vehicle.id}.name`).toLowerCase().includes(searchString) ||
+      (vehicle.name || '').toLowerCase().includes(searchString) ||
       vehicle.modelCode.toLowerCase().includes(searchString) ||
       vehicle.category.toLowerCase().includes(searchString) ||
-      t(`fleet.${vehicle.id}.description`).toLowerCase().includes(searchString)
+      (vehicle.description || '').toLowerCase().includes(searchString)
     );
   }
 
@@ -88,7 +87,7 @@ export const CatalogPage = ({
 
   const categoryOptions = apiCategories
     ? mapApiCategories(apiCategories).map(c => c.name)
-    : ['EXCAVATORS', 'LOADERS', 'TRACTORS', 'TRUCKS', 'GRADERS'];
+    : [];
   const manufacturingYears = ['ALL', '2026', '2025', '2024', '2023'];
 
   return (
@@ -103,6 +102,13 @@ export const CatalogPage = ({
             <span className="BadgeAccentLine"></span>
             <span className="BadgeLabelText">{t('catalog.badge')}</span>
             <span className="BadgeAccentLine"></span>
+          </div>
+          <div className="CatalogSectorBadges">
+            <span className="CatalogSectorBadge">{t('hero.sector_construction', 'Construction')}</span>
+            <span className="CatalogSectorDot">•</span>
+            <span className="CatalogSectorBadge">{t('hero.sector_mining', 'Mining')}</span>
+            <span className="CatalogSectorDot">•</span>
+            <span className="CatalogSectorBadge">{t('hero.sector_agriculture', 'Agriculture')}</span>
           </div>
           <h1 className="CatalogBannerMainHeadline">{t('catalog.headline_1')}<br /><span>{t('catalog.headline_2')}</span></h1>
           <p className="CatalogBannerParagraph">
@@ -128,7 +134,7 @@ export const CatalogPage = ({
                 }, 100);
               }
             }}>
-              GET A CUSTOM QUOTE &rarr;
+              {t('catalog.request_quote', 'GET A CUSTOM QUOTE')} &rarr;
             </button>
           </div>
         </div>
@@ -327,8 +333,8 @@ export const CatalogPage = ({
                     </div>
                     <div className="InventoryCardSpecificationBlock">
                       <span className="InventoryCardVehicleCode">{vehicle.modelCode}</span>
-                      <h3 className="InventoryCardVehicleHeading">{t(`fleet.${vehicle.id}.name`)}</h3>
-                      <p className="InventoryCardVehicleSummary">{t(`fleet.${vehicle.id}.description`)}</p>
+                      <h3 className="InventoryCardVehicleHeading">{vehicle.name}</h3>
+                      <p className="InventoryCardVehicleSummary">{vehicle.description}</p>
                       <span 
                         className="InventoryCardDetailsTrigger" 
                         onClick={(e) => {

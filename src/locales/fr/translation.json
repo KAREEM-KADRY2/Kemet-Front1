@@ -40,7 +40,7 @@
     "request_quote_short": "Devis"
   },
   "footer": {
-    "brand_desc": "Alpha Sino General Trading Co. L.L.C. — votre partenaire de confiance pour la machinerie lourde haut de gamme dans les secteurs de la construction, des mines et de l'industrie à travers le monde.",
+    "brand_desc": "Alfa Sino General Trading Co. L.L.C. — votre partenaire de confiance pour la machinerie lourde haut de gamme dans les secteurs de la construction, des mines et de l'industrie à travers le monde.",
     "motto_1": "Professionnel",
     "motto_2": "Puissant",
     "motto_3": "Fiable",
@@ -48,7 +48,7 @@
     "contact_title": "Contactez-nous",
     "status_title": "Statut Opérationnel",
     "copyright": "Copyright © {{year}} KEMET Machinerie Lourde.",
-    "slogan": "Construit Sans Compromis."
+    "slogan": "KEMET — Built to Endure"
   },
   "advantages": {
     "badge": "Pourquoi Kemet",
@@ -84,8 +84,8 @@
   },
   "catalog": {
     "badge": "Gamme Kemet",
-    "headline_1": "Catalogue Complet",
-    "headline_2": "D'Équipement 2026",
+    "headline_1": "KEMET Machinery",
+    "headline_2": "Catalog 2026",
     "summary": "Chaque machine de la gamme KEMET est conçue pour des performances sans compromis...",
     "download_pdf": "Télécharger Le Catalogue PDF",
     "request_quote": "Demander Un Devis",
@@ -120,12 +120,12 @@
   },
   "about": {
     "badge": "Notre Histoire",
-    "heading": "À propos de Kemet & Alpha Sino",
+    "heading": "À propos de Kemet & Alfa Sino",
     "subheading": "Établir des partenariats industriels de confiance à travers le monde entier depuis 2003.",
     "history_badge": "Histoire de l'entreprise",
     "history_heading_1": "Un Héritage Bâti Sur",
     "history_heading_2": "La Confiance Industrielle",
-    "history_p1": "Fondée dans le quartier de Port Said à Dubaï, Alpha Sino General Trading Co. LLC a commencé comme importateur spécialisé d'équipements de construction et d'exploitation minière pour le marché des EAU en développement rapide.",
+    "history_p1": "Fondée dans le quartier de Port Said à Dubaï, Alfa Sino General Trading Co. LLC a commencé comme importateur spécialisé d'équipements de construction et d'exploitation minière pour le marché des EAU en développement rapide.",
     "history_p2": "La marque KEMET est née d'une conviction simple : les secteurs de la construction et de l'exploitation minière du monde entier méritaient des machines spécialement conçues pour résister à des chaleurs extrêmes...",
     "history_p3": "Aujourd'hui, les machines KEMET sont déployées à travers des mégaprojets de construction, des opérations minières à ciel ouvert et des développements d'infrastructures industrielles.",
     "strengths_title": "Nos Forces Opérationnelles",

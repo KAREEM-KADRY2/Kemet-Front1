@@ -1,3 +1,5 @@
+import i18n from '../i18n.js';
+
 export const generateSpecSheetPDF = (item) => {
   const printWindow = window.open('', '_blank');
   if (!printWindow) return;
@@ -8,6 +10,9 @@ export const generateSpecSheetPDF = (item) => {
       <span class="spec-value">${spec.value}</span>
     </div>
   `).join('');
+
+  const imageSrc = item.image ? (item.image.startsWith('http') ? item.image : `${window.location.origin}${item.image}`) : '';
+  const imageHTML = imageSrc ? `<img src="${imageSrc}" alt="${item.name}" style="max-width: 100%; max-height: 300px; border-radius: 8px; border: 1px solid #eee; margin-top: 15px; margin-bottom: 25px; display: block;" />` : '';
 
   printWindow.document.write(`
     <html>
@@ -99,11 +104,12 @@ export const generateSpecSheetPDF = (item) => {
         <div class="header">
           <div>
             <div class="logo">KE<span>MET</span></div>
-            <div style="font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 1px;">By Alpha Gino</div>
+            <div style="font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 1px;">By Alfa Sino</div>
           </div>
           <div class="model-code">${item.modelCode}</div>
         </div>
         <h1 class="title">${item.name}</h1>
+        ${imageHTML}
         <p class="desc">${item.description}</p>
         
         <div class="specs-section">
@@ -112,7 +118,7 @@ export const generateSpecSheetPDF = (item) => {
         </div>
         
         <div class="footer">
-          &copy; ${new Date().getFullYear()} KEMET Heavy Machinery | Alpha Sino General Trading Co. L.L.C. | www.dxbalpha.com
+          &copy; ${new Date().getFullYear()} KEMET Heavy Machinery | Alfa Sino General Trading Co. L.L.C. | www.dxbalpha.com
         </div>
         <script>
           window.onload = function() {
@@ -140,10 +146,10 @@ export const generateCatalogPDF = (selectedItems, userInfo) => {
         <div style="font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1.5px;">Heavy Machinery Division</div>
       </div>
       <div class="cover-body">
-        <div class="cover-title-pill">Customized Equipment Catalog</div>
-        <h1 class="cover-title">2026 LINEUP<br><span>SPECIFICATION MANUAL</span></h1>
+        <div class="cover-title-pill">${i18n.t('catalog.promo_badge', 'Customized Equipment Catalog')}</div>
+        <h1 class="cover-title">${i18n.t('catalog.headline_1', 'KEMET Machinery')}<br><span>${i18n.t('catalog.headline_2', 'Catalog 2026')}</span></h1>
         <p class="cover-desc">
-          A tailored engineering and specification document compiled dynamically for Kemet's commercial clients. Contains active model data sheets, powertrain profiles, load capacity curves, and system diagnostics.
+          ${i18n.t('catalog.promo_desc', "A tailored engineering and specification document compiled dynamically for Kemet's commercial clients.")}
         </p>
       </div>
       <div class="cover-footer">
@@ -197,6 +203,9 @@ export const generateCatalogPDF = (selectedItems, userInfo) => {
         </div>
       `).join('');
 
+      const imageSrc = item.image ? (item.image.startsWith('http') ? item.image : `${window.location.origin}${item.image}`) : '';
+      const imageHTML = imageSrc ? `<img src="${imageSrc}" alt="${item.name}" style="max-width: 100%; max-height: 250px; border-radius: 8px; border: 1px solid #eee; margin-top: 10px; margin-bottom: 20px; display: block;" />` : '';
+
       catalogHTML += `
         <div class="product-page">
           <div class="header">
@@ -208,6 +217,7 @@ export const generateCatalogPDF = (selectedItems, userInfo) => {
           </div>
           
           <h2 class="product-title">${item.name}</h2>
+          ${imageHTML}
           <p class="product-desc">${item.description}</p>
           
           <div class="specs-grid">

@@ -3,6 +3,21 @@ import { useTranslation } from 'react-i18next';
 
 export const CategoryShowcase = ({ setActiveTab, setCategoryFilter }) => {
   const { t } = useTranslation();
+  
+  const mainSections = [
+    {
+      id: 'kemet-wheel-loaders',
+      name: 'KEMET Wheel Loaders',
+      description: 'Explore our premium range of KEMET wheel loaders, engineered for maximum power and endurance in tough environments.',
+      image: '/catalog-new.jpg' // Using a generic banner image since specific ones aren't provided yet
+    },
+    {
+      id: 'agricm-product-catalog',
+      name: 'AGRICM Product Catalog',
+      description: 'Discover the full AGRICM product catalog, featuring specialized machinery and equipment.',
+      image: '/catalog-new.jpg' // Using a generic banner image
+    }
+  ];
 
   const handleViewCategory = (e, categoryName) => {
     e.preventDefault();
@@ -18,11 +33,11 @@ export const CategoryShowcase = ({ setActiveTab, setCategoryFilter }) => {
           <div className="HeaderGroupingLeft">
             <div className="SectionSegmentPill">
               <span className="PillAccentLine"></span>
-              <span className="PillLabelText">{t('showcase.badge')}</span>
+              <span className="PillLabelText">{t('showcase.badge', 'BROWSE BY TYPE')}</span>
             </div>
             <h2 className="ShowcaseSectionTitle">
-              {t('showcase.title_line1')}<br />
-              {t('showcase.title_line2')}
+              {t('showcase.title_line1', 'EXPLORE OUR')}<br />
+              {t('showcase.title_line2', 'MAIN DIVISIONS')}
             </h2>
           </div>
           <div className="HeaderGroupingRight">
@@ -31,87 +46,33 @@ export const CategoryShowcase = ({ setActiveTab, setCategoryFilter }) => {
               onClick={(e) => handleViewCategory(e, 'ALL')}
               id="btn-all-categories"
             >
-              {t('showcase.all_btn')} <span>&rarr;</span>
+              {t('showcase.all_btn', 'ALL CATEGORIES')} <span>&rarr;</span>
             </button>
           </div>
         </div>
 
-        <div className="ShowcaseGridLayout">
-          <div className="FleetCategoryCard" id="card-excavators">
-            <div className="CardMediaViewport">
-              <img src="/a87db3e6-167b-4cb8-8774-7159388a521e.png" alt="Excavator" className="CardVehicleAsset" />
+        <div className="ShowcaseGridLayout" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
+          {mainSections.map(section => (
+            <div className="FleetCategoryCard" id={`card-${section.id}`} key={section.id}>
+              <div className="CardMediaViewport" style={{ height: '250px', backgroundColor: '#eaeaea' }}>
+                <img src={section.image} alt={section.name} className="CardVehicleAsset" style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
+              </div>
+              <div className="CardSpecificationContent">
+                <h3 className="CardVehicleHeading">{section.name}</h3>
+                <p className="CardVehicleSummary">
+                  {section.description}
+                </p>
+                <button 
+                  className="CardActionAnchor" 
+                  onClick={(e) => handleViewCategory(e, section.name)}
+                  id={`btn-view-${section.id}`}
+                  style={{ marginTop: 'auto' }}
+                >
+                  {t('showcase.view_range', 'VIEW CATALOG')}
+                </button>
+              </div>
             </div>
-            <div className="CardSpecificationContent">
-              <h3 className="CardVehicleHeading">{t('showcase.excavators_title')}</h3>
-              <p className="CardVehicleSummary">
-                {t('showcase.excavators_desc')}
-              </p>
-              <button 
-                className="CardActionAnchor" 
-                onClick={(e) => handleViewCategory(e, 'EXCAVATORS')}
-                id="btn-view-excavators"
-              >
-                {t('showcase.view_range')}
-              </button>
-            </div>
-          </div>
-
-          <div className="FleetCategoryCard" id="card-loaders">
-            <div className="CardMediaViewport">
-              <img src="/49c6df76-530e-409d-a3d5-923cc1a96cb3.png" alt="Loader" className="CardVehicleAsset" />
-            </div>
-            <div className="CardSpecificationContent">
-              <h3 className="CardVehicleHeading">{t('showcase.loaders_title')}</h3>
-              <p className="CardVehicleSummary">
-                {t('showcase.loaders_desc')}
-              </p>
-              <button 
-                className="CardActionAnchor" 
-                onClick={(e) => handleViewCategory(e, 'LOADERS')}
-                id="btn-view-loaders"
-              >
-                {t('showcase.view_range')}
-              </button>
-            </div>
-          </div>
-
-          <div className="FleetCategoryCard" id="card-tractors">
-            <div className="CardMediaViewport">
-              <img src="/b5b3107c-92a0-4d8e-b337-7ca794dc5668.png" alt="Tractor" className="CardVehicleAsset" />
-            </div>
-            <div className="CardSpecificationContent">
-              <h3 className="CardVehicleHeading">{t('showcase.tractors_title')}</h3>
-              <p className="CardVehicleSummary">
-                {t('showcase.tractors_desc')}
-              </p>
-              <button 
-                className="CardActionAnchor" 
-                onClick={(e) => handleViewCategory(e, 'TRACTORS')}
-                id="btn-view-tractors"
-              >
-                {t('showcase.view_range')}
-              </button>
-            </div>
-          </div>
-
-          <div className="FleetCategoryCard" id="card-trucks">
-            <div className="CardMediaViewport">
-              <img src="/983b9ffe-f2aa-499a-8b93-26222d25fa8c.png" alt="Truck" className="CardVehicleAsset" />
-            </div>
-            <div className="CardSpecificationContent">
-              <h3 className="CardVehicleHeading">{t('showcase.trucks_title')}</h3>
-              <p className="CardVehicleSummary">
-                {t('showcase.trucks_desc')}
-              </p>
-              <button 
-                className="CardActionAnchor" 
-                onClick={(e) => handleViewCategory(e, 'TRUCKS')}
-                id="btn-view-trucks"
-              >
-                {t('showcase.view_range')}
-              </button>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

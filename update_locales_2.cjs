@@ -8,12 +8,12 @@ const newData = {
   en: {
     about: {
       badge: "Our Story",
-      heading: "About Kemet & Alpha Sino",
+      heading: "About Kemet & Alfa Sino",
       subheading: "Building trusted industrial partnerships across the Middle East, Africa, and beyond since 2003.",
       history_badge: "Company History",
       history_heading_1: "A Legacy Built On",
       history_heading_2: "Industrial Trust",
-      history_p1: "Founded in Dubai's Port Said district, Alpha Sino General Trading Co. LLC began as a specialized importer of construction and mining equipment for the rapidly developing UAE market. Two decades of relationship-driven commerce transformed us into one of the region's most recognized heavy machinery distributors.",
+      history_p1: "Founded in Dubai's Port Said district, Alfa Sino General Trading Co. LLC began as a specialized importer of construction and mining equipment for the rapidly developing UAE market. Two decades of relationship-driven commerce transformed us into one of the region's most recognized heavy machinery distributors.",
       history_p2: "The KEMET brand was born from a simple conviction: the GCC construction and mining sectors deserved purpose-engineered machinery that could withstand extreme heat, continuous heavy-cycle operations, and the logistical demands of remote project sites — without compromising operator productivity or machine reliability.",
       history_p3: "Today, KEMET machines are deployed across construction megaprojects, open-pit mining operations, and industrial infrastructure developments spanning the UAE, Saudi Arabia, Egypt, and sub-Saharan Africa.",
       strengths_title: "Our Operational Strengths",

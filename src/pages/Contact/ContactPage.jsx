@@ -40,7 +40,7 @@ export const ContactPage = () => {
               <span className="InfoIcon">📍</span>
               <div className="InfoText">
                 <strong>{t('contact.hq', 'Global Headquarters')}</strong>
-                <p>{settings?.address || t('contact.address', 'Dubai Airport Building, Office 104, Port Said Area, Dubai, UAE')}</p>
+                <p>{settings?.address || t('contact.address', 'Office 104, Al Owais Building, Port Said Area, Dubai, UAE')}</p>
               </div>
             </div>
 
@@ -48,7 +48,7 @@ export const ContactPage = () => {
               <span className="InfoIcon">📞</span>
               <div className="InfoText">
                 <strong>{t('contact.phone_title', 'Direct Line')}</strong>
-                <p><a href={`tel:${settings?.phone || '+971588603711'}`}>{settings?.phone || '+971 58 860 3711'}</a></p>
+                <p><a href={`tel:${settings?.phone || '+971522333388'}`}>{settings?.phone || '+971 52 233 3388'}</a></p>
               </div>
             </div>
 
@@ -64,7 +64,7 @@ export const ContactPage = () => {
               <span className="InfoIcon">💬</span>
               <div className="InfoText">
                 <strong>{t('contact.whatsapp_title', 'WhatsApp')}</strong>
-                <p><a href={`https://wa.me/${(settings?.whatsapp || '971588603711').replace(/\D/g, '')}`}>{settings?.whatsapp || '+971 58 860 3711'}</a></p>
+                <p><a href={`https://wa.me/${(settings?.whatsapp || '971522333388').replace(/\D/g, '')}`}>{settings?.whatsapp || '+971 52 233 3388'}</a></p>
               </div>
             </div>
           </div>

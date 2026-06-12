@@ -34,7 +34,7 @@ export const Navbar = ({
             rel="noopener noreferrer" 
             onClick={(e) => e.stopPropagation()}
           >
-            by alpha gino
+            by alfa sino
           </a>
         </div>
       </div>
