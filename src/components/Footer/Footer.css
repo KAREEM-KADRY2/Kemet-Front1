@@ -35,13 +35,15 @@
 
 .BannerText {
   font-family: var(--font-heading);
-  color: var(--primary);
-  font-size: 1.25rem;
+  color: var(--text-white);
+  font-size: clamp(0.75rem, 2.5vw, 1.25rem);
   font-weight: 900;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  text-shadow: 0 0 20px rgba(212, 175, 55, 0.6), 0 2px 4px rgba(0,0,0,0.4);
-  white-space: nowrap;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(212, 175, 55, 0.4), 0 2px 4px rgba(0,0,0,0.2);
+  white-space: normal;
+  max-width: 100%;
 }
 
 /* Columns Grid */
